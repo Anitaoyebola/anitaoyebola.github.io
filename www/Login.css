@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "roborto", sans-serif
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(pictures/clea.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-navigation
+{
+    text-align: center;
+    list-style: none;
+
+    margin-top: 158px;
+}
+.main-navigation li
+{
+    color:white;
+    display: inline;
+    float: center;
+}
+.main-navigation li a
+{
+    color: white;
+    padding: 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.main-navigation li a:hover
+{
+   font-size: 30px;
+}
+.form-box
+{
+    width: 500px;
+    background: rgba(0,0,0,0.85);
+    margin: 20% auto;
+    padding: 100px 10px;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.5);
+    border-radius: 100%;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-box
+{
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 0.5px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 1px;
+                                                                     
+}
+
+.login-box input
+{
+    font-size:55%;
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+::placeholder
+{
+    color: #ccc;
+}
+
+.fa
+{
+    margin-right: 10px;
+}
+.eye
+{
+   padding-top: 10px;
+   position: absolute;
+   color: darkgrey;
+}
+.eye:hover
+{
+    color: whitesmoke;
+}
+#hide1
+{
+    display: none;
+}
+.login-btn
+{
+     border: 1px white;
+     margin-left: 5px;
+     color: #fff;
+     text-decoration: none;
+     background-color: transparent;
+     padding: 10px 30px;
+     font-size: 30px;
+     text-transform: uppercase;
+}
+     
+.login-btn:hover
+{
+    background-color: lightcoral;
+}
+
+

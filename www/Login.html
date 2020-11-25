@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link href="login.css" rel="stylesheet" type="text/css">
+            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                
+
+            </head>
+    </body>
+    
+    <ul class="main-navigation">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="Art.html"> ARTWORK </a></li>
+        <li><a href="Games.html"> GAMES </a></li>
+        <li><a href="3Dmodels.html"> 3D MODELS </a></li>
+        <li><a href="About.html"> ABOUT </a></li>
+        <li><a href="Login.html"> LOGIN </a></li>
+        </ul>
+
+    <div class="form-box">
+        <h1> LOGIN HERE <h1>
+            <div class="login-box">
+                <i class="fa fa-envelope-o" style="font-size: 0.45cm"></i>
+            <input type="email" placeholder="Email Id">
+                </div>
+            <div class="login-box">
+                <i class="fa fa-key" style="font-size: 0.45cm"></i>
+                <input type="password" placeholder="Password" id="myInput">
+                    <span class="eye" onclick="myFunction()" style="font-size: 0.50cm">
+                    <i id="hide1" class="fa fa-eye"></i>
+                    <i id="hide2" class="fa fa-eye-slash"></i>
+                    </span>
+            </div>
+            <button type="button" class="login-btn"> LOGIN </button>
+            </div>
+                <script>
+                    function myFunction()
+                    {
+                        var x = document.getElementById("myInput");
+                        var y = document.getElementById("hide1");
+                        var z = document.getElementById("hide2");
+
+                        if(x.type ==='password')
+                        {
+                            x.type = "text";
+                            y.style.display = "block";
+                            z.style.display = "none";
+                        }
+                        
+                        else
+                        {
+                            x.type = "password";
+                            y.style.display = "none";
+                            z.style.display = "block";
+                        }
+                    }
+                </script>
+                </div>
+            
+            
+        <div>
+    </html>

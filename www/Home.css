@@ -1,51 +1,48 @@
 *
-{ margin:0;
+{   margin:0;
     padding:0;
     font-family: "roboto", sans-serif;
 }
 
 header
-{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pictures/orchid.jpeg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-.main-navigation
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
-}
-
-.main-navigation li
-{
-    display: inline-block;
-}
-
-.main-navigation li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    position: center;
-    font-size: 20px;
-    font-weight: bolder;
-    font-size-adjust: auto;
-}
-
-.main-navigation li a:hover
-{
-   text-decoration: underline;
-   color: lightpink;
-}
-
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/orchid.jpeg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .main-navigation
+    {
+        text-align: center;
+        list-style: none;
+        margin-top: 158px;
+    }
+    .main-navigation li
+    {
+        color:white;
+        display: inline;
+        float: center;
+    }
+    .main-navigation li a
+    {
+        color: white;
+        padding: 20px;
+        font-family: "Roboto",sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        
+    }
+    .main-navigation li a:hover
+    {
+       font-size: 30px;
+    }
 .logo img
 {
+    margin-left: 550px;
+    margin-top: 50px;
     width: 150px;
     height: auto;
-    float: left;
+    border-radius: 100%;
 }
 
 .row1
@@ -54,37 +51,17 @@ header
     margin: auto;
 }
 
-.hero
-{
-    padding: 30px;
-    width: 1200px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-h1
-{
-    color: white;
-    text-transform: uppercase;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 275px;
-    
-}
-
 .button1
 {
-    margin-top: 30px;
+    margin-top: 200px;
     margin-left: 440px;
 }
 
 .button1 a:hover
 {
-    background-color: darkorange;
-    -webkit-transition-delay: all 0.5s ease-in;
+    background-color: skyblue;
+    color: black;
 }
-
-
 .btn 
 {
     border: 1px solid white;
