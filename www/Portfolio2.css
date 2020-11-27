@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "roborto", sans-serif;
+}
+
+.main-navigation
+{
+    text-align: center;
+    list-style: none;
+    margin-top: 158px;
+}
+.main-navigation li
+{
+    display: inline;
+    float: center;
+}
+.main-navigation li a
+{
+    color: black;
+    padding: 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.main-navigation li a:hover
+{
+   font-size: 30px;
+}
+
+.section
+{
+    color:black;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 6% 2%;
+}
+
+.grid1
+{
+    margin: 20px0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.grid1: after
+{
+    clear: both;
+}
+
+.grid1: after, .box: before
+{
+ content: "";
+ display: table;
+}
+
+
+.grid1 li
+{
+    width: 328px;
+    height: 328px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.box:hover
+{
+    background-image: 70%;
+}
+.image1
+{
+    background:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(pictures/orchid.jpeg);
+}
+.image2
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(pictures/orchid.jpeg);
+}
+.image3
+ {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(pictures/orchid.jpeg);
+}
+.image4
+{
+   background:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.10)),url(pictures/orchid.jpeg);
+}
+info
+{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+h3
+{
+    font-weight: 400;
+    color: orange;
+    font-size: 42px;
+    margin: 0 30px;
+    padding: 100px 0 0 0;
+    line-height: 1.5;
+}
+
+p
+{
+    color: #fff;
+}

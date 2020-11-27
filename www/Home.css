@@ -15,7 +15,7 @@ header
     {
         text-align: center;
         list-style: none;
-        margin-top: 158px;
+        margin-top: 50px;
     }
     .main-navigation li
     {
@@ -72,6 +72,10 @@ header
     font-size: 13px;
     text-transform: uppercase;
  
+}
+.btn-one .btn-two
+{
+    position: center;
 }
 
 
