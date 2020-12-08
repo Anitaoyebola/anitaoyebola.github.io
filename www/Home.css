@@ -58,6 +58,7 @@ header
 
 .dropdown-content {
   display: none;
+  position: static;
   background-color: none;
   min-width: 100px;
   min-height: 30px;
@@ -71,6 +72,7 @@ header
     text-decoration: none;
     font-size: 13px;
     text-transform: uppercase;
+    display: block;
 }
 
 .main-navigation:hover .dropdown-content
@@ -83,25 +85,23 @@ header
 {
     animation-duration: 7s;
     animation-name: slidein;
-    animation-iteration-count: 10s;
+    animation-iteration-count: 5s;
     margin: 5px 5px;
-    border: 0.2px solid white;
 }
 .button2
 {
     animation-duration: 8s;
     animation-name: slidein;
-    animation-iteration-count: 10s;
+    animation-iteration-count: 5s;
     margin: 5px 5px;
-    border: 0.2px solid white;
 }
 .button3
 {
     animation-duration: 9s;
     animation-name: slidein;
-    animation-iteration-count: 10s;
+    animation-iteration-count: 5s;
     margin: 5px 5px;
-    border: 0.2px solid white;
+    
 }
 
 .logo
