@@ -1,0 +1,205 @@
+<html>
+<head>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="Games.css">
+    
+<title> Anita Oyebola</title>
+<link href="Home.css" rel="stylesheet" type="text/css">
+    </head>
+
+<body>
+    <header>
+        
+            <div class="logo">
+                <a> GAMES </a>
+                </div>
+            <div>
+                
+                <ul class="main-navigation">
+                    <li><a href="Index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="Portfolio.html" class="dropbtn">PORTFOLIO</a>
+                        <div class="dropdown-content">
+                          <a href="art.html" class="dropart">Art</a>
+                          <a href="Gamesmodels.html" class="dropgd">Models</a>
+                          <a href="Fashion.html" class="dropfashion" >Fashion/Photography</a>
+                        </div>
+                      </li>
+                    <li><a href="Games.html"> GAMES </a></li>
+                    <li><a href="About.html"> ABOUT </a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <canvas id="canvas" style="background: gray"></canvas>
+                
+                functionmain()
+                {
+                // Get a reference to our canvas by the specified IDvar canvas = document.getElementById("canvas");
+                // Set the width and height
+                canvas.width = 640;
+                canvas.height = 480;
+                
+                }
+                window.onload = main
+                
+                function main()
+                {...
+                // Create the 2D drawing context
+                var ctx = canvas.getContext('2d');
+                // Call our draw function, passing in the context
+                draw(ctx);
+                }
+                
+                function draw(ctx)
+                {
+                // Set future fill color to red
+                ctx.fillStyle = 'red';
+                  // Fill an area in top, left of canvas
+                ctx.fillRect(10, 10, 100, 100);
+                
+                }
+                
+                // Store a variable for the current x position of the red box
+                var x = 10;
+                function draw(ctx)
+                {
+                ctx.fillStyle = 'red';
+                // Use x in place of 0 so it dynamically updates
+                ctx.fillRect(x, 10, 100, 100);
+                x++;
+                
+                // Ask the browser to call this function again as soon as it can
+                window.requestAnimationFrame(function(){draw(ctx);});
+                }
+                
+                // Set clear color to gray and fetch width and height from canvas ctx.fillStyle = 'gray';
+                ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+                ctx.fillStyle = 'red';
+                ctx.fillRect(x, 10, 100, 100);
+                x++;
+                window.requestAnimationFrame(function(){draw(ctx);});
+                
+                // Use a variable to store our player image var playerImage;
+                function load()
+                {
+                // Allocate a new image and assign it to our previous variable playerImage = new Image();
+                // Set the src (the path of the image). This will be loaded by the
+                // browser but may not be loaded immediately
+                playerImage.src = "pictures/player.png";
+                }
+                function main()
+                {
+                ...
+                load();
+                ...
+                }
+                
+                function draw(ctx)
+                {
+                ctx.fillStyle = 'gray';
+                ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+                ctx.drawImage(playerImage, x, 10);
+                x++;
+                window.requestAnimationFrame(function(){draw(ctx);});
+                }
+                
+                // image, sourcex, sourcey, sourcewidth, sourceheight,
+                // destx, desty, destwidth, destheight
+                ctx.drawImage(playerImage, 0, 0,
+                playerImage.width / 2, playerImage.height / 2,
+                x, 10, playerImage.height / 2, playerImage.height / 2);
+                
+                function keydown(event)
+                {
+                if(event.key == "ArrowLeft")
+                {
+                x--;
+                
+                }
+                else if(event.key == "ArrowRight")
+                {
+                x++;
+                
+                }
+                }
+                window.onload = main; window.addEventListener("keydown", keydown);
+                
+                window.addEventListener("keyup", keydown);
+                
+                </div>
+            
+            
+</header>
+    
+            <footer class="footer-distributed">
+     
+            <div class="footername">
+     
+            <h3>ANITA-PEARL OYEBOLA</span></h3>
+     
+            <p class="footerlinks">
+            <a href="Home.html">Home</a>
+        
+            <a href="Portfolio2.html">Portfolio</a>
+        
+        
+            <a href="Games.html">Games</a>
+        
+            <a href="Models.html">Models</a>
+        
+            <a href="Login.html">Login</a>
+            </p>
+     
+            <p class="footer-company-name">DesignTechnologyGroupD &copy; 2019</p>
+            </div>
+     
+            <div class="footer-center">
+     
+            <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span1>Bournemouth University</span1><span1>Talbot Campus</span1><span1>Poole</span1> BH12 5BB</p>
+            </div>
+     
+            <div>
+            <i class="fa fa-phone"></i>
+            <p>01202524111</p>
+            </div>
+     
+            <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:bournemouth@mail.ac.uk">B-university@mail.ac.uk</a></p>
+            </div>
+     
+            </div>
+     
+            <div class="footer-right">
+     
+            <p class="footer-company-about">
+            <span>About This Website</span>
+        This is not a real website, just a website made for my DT assessment. You can click the links below, they work! :)
+            </p>
+     
+            <div class="footer-icons">
+     
+            <a href="https://www.facebook.com/JoinBournemouthUni/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/bournemouthuni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bournemouthuni/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a href="https://github.com/Anitaoyebola/anitaoyebola.github.io"><i class="fa fa-github"></i></a>
+     
+            </div>
+     
+            </div>
+     
+            </footer>
+
+    </body>
+<footer>
+</footer>
+</html>
+
