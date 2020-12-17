@@ -10,8 +10,10 @@
     width: device-width ;
     zoom: 1.0 ;
 }
+
 *:before,
-*:after {
+*:after
+{
  box-sizing: border-box;
 }
 
@@ -23,6 +25,7 @@ body
     background-position: top;
     position: relative;
 }
+
 .main-pagecontent
 {
     min-height: 100vh;
