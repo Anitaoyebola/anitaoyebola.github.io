@@ -4,12 +4,13 @@
     font-family: "roboto", sans-serif;
 }
 
-header
+body
     {
         background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9232.jpg);
-        height: 220vh;
-        background-size: 100%;
-        background-position: center;
+        height: 100%;
+        background-size: right;
+        background-position: top;
+        position: relative;
     }
 
 .logo
@@ -17,9 +18,6 @@ header
     font-size: 200px;
     color: white;
     text-align: center;
-    animation-duration: 8s;
-    animation-name: slidein;
-    animation-iteration-count: 10s;
 }
 
 @keyframes slidein
@@ -56,8 +54,7 @@ header
 
 .main-navigation li a:hover
 {
-    text-decoration: underline;
-    color: white;
+    color: orange;
     font-style: bolder;
 }
 
@@ -115,68 +112,56 @@ li.dropdown {
   display: block;
 }
 
-.main-page
+.main-pagelinks
 {
     text-align: center;
-    list-style: none;
-    margin: auto;
-    margin-top: 50px;
-    position: center;
-    font-size: 100px;
-    font-weight: bolder;
+    margin-bottom: 400px;
+    
 }
 
-.main-page li
+.main-pagelinks a:hover
 {
-    padding: 100px 60px;
-    display: border-box;
-}
-
-.main-page li a
-{
-    padding: 150px 100px;
-    width: 80%;
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin: auto;
+    background-color: black;
     color: white;
-
-
+    border: 5px solid black;
+    font-weight: bold;
 }
 
-.main-page li a:hover
+.btnlink
 {
-    -webkit-transition: 0.6s ease-in-out;
+    border: 10px solid white;
+    padding: 100px 100px;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-linkone
+{
+    margin-top: 150px;
+    padding: 130px;
+}
+.btn-linktwo
+{
+    padding: 50px;
+}
+ .btn-linkthree
+{
+    padding: 130px;
+}
+span
+{
+    display: block;
     color: darkorange;
 }
-
-.art-link
-{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9574.jpg);
-    background-position: bottom;
-}
-
-.gamesmodelling-link
-{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/61EBD856-A91A-40DB-BF5D-034021F1D9C2.jpeg);
-    background-position: center;
-}
-
-.fashion-link
-{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/BEDAC932-AF53-4F70-9254-B37C14A0FF16_1_105_c.jpeg);
-    background-position: top;
-}
-
-
-
 
 
 
 
 footer{
     position: bottom;
+    bottom: 0;
 }
 .footer-distributed{
     background-color: black;
@@ -339,7 +324,7 @@ footer{
     
     }
  
-    .footer-distributed .footer-left,
+    .footer-distributed .footername,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right{
         display: block;

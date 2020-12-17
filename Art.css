@@ -5,12 +5,13 @@
     box-sizing: border-box;
 }
 
-header
+body
 {
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_81722.jpg);
-    height: 225vh;
-    background-size:top;
-    background-position: top;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,3)),url(pictures/B645A8D2-3741-4B0C-8C31-DBEE7DF48125_1_105_c.jpeg);
+    height: 100%;
+    background-size:center;
+    background-position: right;
+    position: relative;
 }
 .main-page
 {
@@ -65,8 +66,7 @@ header
 
 .main-navigation li a:hover
 {
-    text-decoration: underline;
-    color: white;
+    color: red;
     font-style: bolder;
 }
 

@@ -4,19 +4,42 @@
     font-family: "roboto", sans-serif;
 }
 
-body
+header
     {
-        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9574.jpg);
-        height: 100%;
-        background-size: left;
-        background-position: bottom;
+        background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(pictures/IMG_81722.jpg);
+        height: 250%;
+        background-size: 200%;
+        background-position: top left;
         position: relative;
     }
 
+.logo
+{
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: 10s;
+}
+
+@keyframes slidein
+{
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 200px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
 .main-navigation
 {
     text-align: center;
     list-style: none;
+    margin-top: 50px;
     position: center;
 }
 .main-navigation li
@@ -27,15 +50,14 @@ body
 .main-navigation
 {
     color: white;
-    padding: 300px 0px 120px 10px;
+    padding: 20px;
     font-size: 20px;
     text-decoration: none;
 }
 
 .main-navigation li a:hover
 {
-    text-decoration: underline;
-    color: white;
+    color: yellow;
     font-style: bolder;
 }
 
@@ -61,7 +83,6 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,5);
-    border: 0.2px solid white;
 }
 
 li.dropdown {
@@ -93,90 +114,82 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropart
-{
-    margin-top: 5px;
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
 }
 
-.form-box
-{
-    width: 500px;
-    background: rgba(0,0,0,1);
-    display: block;
-    margin: auto;
-    margin-bottom: 200px;
-    padding: 100px 10px;
-    color: #fff;
-    box-shadow: rgba(0,0,0,0.9);
-    border: 10px solid #ffff99;
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-h1
+div.phototext {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.photo {
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .photo {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .photo {
+    width: 100%;
+  }
+}
+
+.gallery-bottom:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h2
 {
+    color: white;
     text-align: center;
-    margin-bottom: 40px;
+    padding: 40px;
+    margin-top: 100px;
 }
 
-.login-box
+span
 {
-    margin: 30px auto;
-    width: 80%;
-    border-bottom: 0.5px solid #fff;
-    padding-top: 5px;
-    padding-bottom: 1px;
+    color: darkorange;
+    text-transform: uppercase;
 }
 
-.login-box input
+p
 {
-    font-size:55%;
-    width: 90%;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #fff;
-}
-::placeholder
-{
-    color: #ccc;
+    color: white;
+    margin: 100px 0 300px 0;
+    display: block;
+    text-align: center;
 }
 
-.fa
-{
-    margin-right: 10px;
-}
-.eye
-{
-   padding-top: 10px;
-   position: absolute;
-   color: darkgrey;
-}
-.eye:hover
-{
-    color: whitesmoke;
-}
-#hide1
-{
-    display: none;
-}
-.login-btn
-{
-     border: 2px solid white;
-     background-color: transparent;
-     margin-left: 5px;
-     color: #fff;
-     text-decoration: none;
-     padding: 10px 30px;
-     font-size: 15px;
-     text-transform: uppercase;
-}
-     
-.login-btn:hover
-{
-    background-color: darkcyan;
-    color: black;
-}
 
-footer{
+
+
+
+footer
+{
     position: bottom;
 }
 .footer-distributed{
@@ -358,5 +371,4 @@ footer{
     }
  
 }
-
 

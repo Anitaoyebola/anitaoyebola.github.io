@@ -4,12 +4,13 @@
     font-family: "roboto", sans-serif;
 }
 
-header
+body
     {
-        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9785.jpeg);
-        height: 250vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9661.jpeg);
+        height: 100%;
         background-size: center;
         background-position: right;
+        position: relative;
     }
 
 .logo
@@ -115,7 +116,62 @@ li.dropdown {
   display: block;
 }
 
+.about
+{
+    color:white;
+    height:auto;
+    padding:0;
+    margin-top: 230px;
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 400px ;
+    max-width: 100% ;
+    margin-left: auto ;
+    margin-right: auto ;
+    font-size: 17px;
+}
+.about: hover
+{
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: 10s;
+}
 
+h1
+{
+    font-size: 72px;
+}
+
+h1:hover
+{
+    color: saddlebrown;
+    animation-duration: 10s;
+    animation-name: slidein;
+    animation-iteration-count: 1s;
+}
+.pageimage img
+{
+    border-radius: 100%;
+    max-width: 40% ;
+    max-height: 20% ;
+    display: block;
+    margin: auto auto 200px auto;
+    padding: 10px;
+    position: center;
+
+    
+}
+
+.pageimage a2 img
+{
+    -webkit-transition: transform 1s ease-in-out;
+}
+
+.pageimage a2 img:hover
+{
+    -webkit-transform: rotate(90deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */;
+}
 
 
 
@@ -125,6 +181,7 @@ li.dropdown {
 
 footer{
     position: bottom;
+    bottom: 0;
 }
 .footer-distributed{
     background-color: black;
@@ -287,7 +344,7 @@ footer{
     
     }
  
-    .footer-distributed .footer-left,
+    .footer-distributed .footername,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right{
         display: block;

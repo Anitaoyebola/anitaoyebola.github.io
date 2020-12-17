@@ -4,12 +4,13 @@
     font-family: "roboto", sans-serif;
 }
 
-header
+body
     {
-        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9785.jpeg);
-        height: 250vh;
-        background-size: bottom;
-        background-position: right;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_81722.jpg);
+        height: 100%;
+        background-size: 250%;
+        background-position: top right;
+        position: relative;
     }
 
 .logo
@@ -56,8 +57,7 @@ header
 
 .main-navigation li a:hover
 {
-    text-decoration: underline;
-    color: white;
+    color: cyan;
     font-style: bolder;
 }
 
@@ -118,13 +118,9 @@ li.dropdown {
 
 
 
-
-
-
-
-
 footer{
     position: bottom;
+    bottom: 0;
 }
 .footer-distributed{
     background-color: black;
@@ -287,7 +283,7 @@ footer{
     
     }
  
-    .footer-distributed .footer-left,
+    .footer-distributed .footername,
     .footer-distributed .footer-center,
     .footer-distributed .footer-right{
         display: block;
@@ -305,3 +301,4 @@ footer{
     }
  
 }
+
