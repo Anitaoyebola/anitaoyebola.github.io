@@ -8,8 +8,8 @@ body
     {
         background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9574.jpg);
         height: 100%;
-        background-size: left;
-        background-position: bottom;
+        background-size: 100%;
+        background-position: center;
         position: relative;
     }
 
@@ -34,8 +34,8 @@ body
 
 .main-navigation li a:hover
 {
-    text-decoration: underline;
-    color: white;
+  
+    color: darkcyan;
     font-style: bolder;
 }
 
@@ -108,7 +108,7 @@ li.dropdown {
     padding: 100px 10px;
     color: #fff;
     box-shadow: rgba(0,0,0,0.9);
-    border: 10px solid #ffff99;
+    
 }
 
 h1

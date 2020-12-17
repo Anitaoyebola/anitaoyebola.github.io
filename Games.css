@@ -6,10 +6,12 @@
 }
 header
 {
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_5180.png);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9706.jpeg);
+  background-position: right;
   overflow: hidden;
-  height: 80%;
+  height: 100%;
   display: grid;
+  position: relative;
 }
 
 .sidenavigation
@@ -41,7 +43,7 @@ header
 }
 
 .sidenavigation a:hover {
-  color: #f1f1f1;
+  color: orange;
 }
 
 .sidenavigation .closebtn {
@@ -114,7 +116,7 @@ div[id^="next-movie"],
   visibility: hidden;
   top: 0;
   left: 0;
-  background: aliceblue;
+  background: skyblue;
 }
 
 [id^="next-movie"]:target,
@@ -133,34 +135,51 @@ a[href^="#congrats"], {
   width: fit-content;
   height: fit-content;
   width: -moz-fit-content;
-  color: white;
+  color: orange;
   border: 0.2px solid white;
   padding: 50px;
 }
 a[href^="#next-movie"]:hover,
 button:hover
 {
-    color: cyan;
+    color: darkorange;
     border: 5px solid lightcyan;
 }
+a[href^="#next-movie1"]
+{
+    color: black;
+    padding: 20px;
 
-button, p a
+
+}
+a[href^="#next-movie1"]:hover
+{
+    border: 1px solid lightcyan;
+    color: darkcyan;
+    
+}
+button
 {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 25px;
     width: fit-content;
     height: fit-content;
-    width: -moz-fit-content;
     color: white;
     border: 0.2px solid white;
     padding: 50px;
     margin: auto;
     margin-bottom: 200px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_5180.png);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(pictures/IMG_5180.png);
     background-position: center;
-    background-size: center;
+    background-size: 100%;
   }
+button:hover
+{
+    border: 0.2px solid white;
+    background-color: black;
+    cursor: pointer;
+}
 
 /* The Modal (background) */
 .popupbox {
@@ -182,7 +201,6 @@ button, p a
   background-color: lightgray;
   margin: auto;
   padding: 30px;
-  border-radius: 10%;
   width: 60%;
   color: black;
   font-size: 20px;
@@ -241,14 +259,11 @@ button, p a
   display: none;
 }
 
-a[href="#next-movie1"] {
-  position: static;
-}
-
 
 
 footer{
     position: bottom;
+    bottom: 0;
    
 }
 .footer-distributed{
@@ -405,23 +420,26 @@ footer{
 }
  
  
-@media (max-width: 880px) {
+@media (max-width: 880px)
+{
  
     .footer-distributed{
         font: bold 14px sans-serif;
     
-    }
+}
  
     .footer-distributed .footername,
     .footer-distributed .footer-center,
-    .footer-distributed .footer-right{
+    .footer-distributed .footer-right
+    {
         display: block;
         width: 100%;
         margin-bottom: 40px;
         text-align: center;
     }
  
-    .footer-distributed .footer-center i{
+    .footer-distributed .footer-center i
+    {
         margin-left: 0;
     }
     .main {
