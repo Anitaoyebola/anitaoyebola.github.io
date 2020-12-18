@@ -27,7 +27,7 @@
                         <a href="Portfolio.html" class="dropbtn">PORTFOLIO</a>
                         <div class="dropdown-content">
                             <a href="Art.html" class="dropart">Art</a>
-                            <a href="Gamesmodels.html" class="dropgd">Models</a>
+                            <a href="Gamesmodels.html" class="dropgd">Gamemodels</a>
                             <a href="Fashion.html" class="dropfashion" >Fashion/Photography</a>
                         </div>
                     </li>
@@ -38,82 +38,86 @@
             
             <h2>GALLERY</span></h2>
             
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_5terre.jpg">
-                        <img src="pictures/seven.jpeg" alt="Cinque Terre" width="600" height="400">
-                            </a>
-                    <div class="phototext">Fuzzy </div>
-                </div>
+            
+            <div class="slideshow-gallery">
+
+              <div class="myGallery fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="pictures/seven.jpeg" style="width:100%">
+                <div class="text">HAIR</div>
+              </div>
+
+              <div class="myGallery fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="pictures/orchid.jpeg" style="width:100%">
+                <div class="text">ORCHID</div>
+              </div>
+
+              <div class="myGallery fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="pictures/DF9B6DCB-C764-48EE-97E7-17240529E0DD.jpg" style="width:100%">
+                <div class="text">LOOK</div>
+              </div>
+              
+              <div class="myGallery fade">
+                <div class="numbertext">4/ 8</div>
+                <img src="pictures/IMG_9637.jpeg" style="width:100%">
+                <div class="text">CARROT-EARRINGS</div>
+              </div>
+
+              <div class="myGallery fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="pictures/IMG_8631.jpg" style="width:100%">
+                <div class="text">WHAT A BEAUTIFUL CHAIR</div>
+              </div>
+
+              <div class="myGallery fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="pictures/face3.jpg" style="width:100%">
+                <div class="text">B&W</div>
+              </div>
+              
+              <div class="myGallery fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="pictures/clea2.jpeg" style="width:100%">
+                <div class="text">FLOWER IS CALLED C...</div>
+              </div>
+
+              <div class="myGallery fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="pictures/IMG_9574.jpg" style="width:100%">
+                <div class="text">LEATHER</div>
+              </div>
+
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_forest.jpg">
-                        <img src="pictures/orchid.jpeg" alt="Forest" width="600" height="400">
-                            </a>
-                    <div class="phototext"> Orchid </div>
-                </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_lights.jpg">
-                        <img src="pictures/DF9B6DCB-C764-48EE-97E7-17240529E0DD.jpg" alt="Northern Lights" width="600" height="400">
-                            </a>
-                    <div class="phototext">Closeup</div>
-                </div>
-            </div>
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_mountains.jpg">
-                        <img src="pictures/IMG_9637.jpeg" alt="Mountains" width="600" height="400">
-                            </a>
-                    <div class="phototext">Carrot earrings</div>
-                </div>
-            </div>
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_mountains.jpg">
-                        <img src="pictures/IMG_8631.jpg" alt="Mountains" width="600" height="400">
-                            </a>
-                    <div class="phototext">Chair</div>
-                </div>
-            </div>
-            
-            
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_mountains.jpg">
-                        <img src="pictures/face3.jpg" alt="Mountains" width="600" height="400">
-                            </a>
-                    <div class="phototext">Black & White </div>
-                </div>
-            </div>
-            
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img_mountains.jpg">
-                        <img src="pictures/clea2.jpeg" alt="Mountains" width="600" height="400">
-                            </a>
-                    <div class="phototext">Blue</div>
-                </div>
-            </div>
-            
-            
-            <div class="photo">
-                <div class="gallery">
-                    <a target="_blank" href="img-mountains.jpg">
-                        <img src="pictures/IMG_9574.jpg" width="600" height="400">
-                            </a>
-                    <div class="phototext">Leather</div>
-                </div>
-            </div>
+            <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("myGallery");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              slides[slideIndex-1].style.display = "block";
+              setTimeout(showSlides, 3500); // Change image every 2 seconds
+            }
+            </script>
             
             <div class="gallery-bottom"></div>
             
@@ -138,6 +142,8 @@
                 <a href="Home.html">HOME /</a>
                 
                 <a href="Portfolio2.html">PORTFOLIO /</a>
+                
+                <a href="Games.html">GAMES /</a>
                 
                 <a href="Models.html">ABOUT /</a>
                 

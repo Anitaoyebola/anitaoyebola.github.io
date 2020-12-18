@@ -38,6 +38,8 @@ body
 .logo
 {
     font-size: 200px;
+    max-width: 100%;
+    margin: auto;
     color: white;
     text-align: center;
     animation-duration: 8s;
