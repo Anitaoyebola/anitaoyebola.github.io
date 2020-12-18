@@ -15,34 +15,20 @@ header
 {
     background-color: black;
     color: white;
-    border: 5px solid black;
     font-weight: bold;
 }
 
 .btnlink
 {
     border: 10px solid white;
-    padding: 100px 100px;
     color: white;
     text-decoration: none;
     margin-left: 5px;
     font-size: 13px;
     text-transform: uppercase;
+    margin: auto;
 }
-.btn-linkone
-{
-    margin-top: 150px;
-    padding: 130px;
-}
-.btn-linktwo
-{
-    padding: 50px;
-    
-}
-.btn-linkthree
-{
-    padding: 130px;
-}
+
 span
 {
     display: block;

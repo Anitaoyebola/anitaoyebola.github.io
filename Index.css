@@ -293,7 +293,7 @@ footer
 
 .footer-distributed .footerlinks a:hover
 {
-    font-size: 15px;
+    color: saddlebrown;
 }
 
 .footer-distributed .footer-company-name{
@@ -383,19 +383,18 @@ footer
     cursor: pointer;
     background-color:  black;
     border-radius: 2px;
-    
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-    
     margin-right: 3px;
     margin-bottom: 5px;
 }
 
-.footer-distributed .footer-icons a:hoverx
+.footer-distributed .footer-icons a:hover
 {
-    font-size: 40px;
+    font-size: 30px;
+    color: saddlebrown;
 }
 
 
