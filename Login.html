@@ -1,90 +1,93 @@
 <html>
     <head>
-        <title>Login</title>
-        <link href="Login.css" rel="stylesheet" type="text/css">
-            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-                
-
-            </head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+                            <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css" >
+                                <title> Login page</title>
+                                <link href="Login.css" rel="stylesheet" >
+                                    <link href="Index.css" rel="stylesheet">
+                                        
+                                        
+                                        </head>
     </body>
     
     <div class="main-page">
-    <header>
-    
-        <div>
+        <header>
             
-            <ul class="main-navigation">
-                <li><a href="index.html">HOME</a></li>
-                <li class="dropdown">
-                    <a href="Portfolio.html" class="dropbtn">PORTFOLIO</a>
-                    <div class="dropdown-content">
-                      <a href="Art.html" class="dropart">Art</a>
-                      <a href="Gamesmodels.html" class="dropgd">Models</a>
-                      <a href="Fashion.html" class="dropfashion" >Fashion/Photography</a>
+            <div>
+                
+                <ul class="main-navigation">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="Portfolio.html" class="dropbtn">PORTFOLIO</a>
+                        <div class="dropdown-content">
+                            <a href="Art.html" class="dropart">Art</a>
+                            <a href="Gamesmodels.html" class="dropgd">Models</a>
+                            <a href="Fashion.html" class="dropfashion" >Fashion/Photography</a>
+                        </div>
+                    </li>
+                    <li><a href="Games.html"> GAMES </a></li>
+                    <li><a href="About.html"> ABOUT </a></li>
+                </ul>
+            </div>
+            
+            
+            <div class="form-box">
+                <h6> LOGIN HERE <h6>
+                    <div class="login-box">
+                        <i class="fa fa-envelope-o" style="font-size: 0.45cm"></i>
+                        <input type="email" placeholder="Username/Email">
+                            </div>
+                    <div class="login-box">
+                        <i class="fa fa-key" style="font-size: 0.45cm"></i>
+                        <input type="password" placeholder="Password" id="myInput">
+                            <span class="eye" onclick="myFunction()" style="font-size: 0.50cm">
+                                <i id="hide1" class="fa fa-eye"></i>
+                                <i id="hide2" class="fa fa-eye-slash"></i>
+                            </span>
+                            </div>
+                    <button type="button" class="login-btn"> LOGIN </button>
                     </div>
-                  </li>
-                <li><a href="Games.html"> GAMES </a></li>
-                <li><a href="About.html"> ABOUT </a></li>
-            </ul>
-        </div>
-
-
-    <div class="form-box">
-        <h1> LOGIN HERE <h1>
-            <div class="login-box">
-                <i class="fa fa-envelope-o" style="font-size: 0.45cm"></i>
-            <input type="email" placeholder="Username/Email">
-                </div>
-            <div class="login-box">
-                <i class="fa fa-key" style="font-size: 0.45cm"></i>
-                <input type="password" placeholder="Password" id="myInput">
-                    <span class="eye" onclick="myFunction()" style="font-size: 0.50cm">
-                    <i id="hide1" class="fa fa-eye"></i>
-                    <i id="hide2" class="fa fa-eye-slash"></i>
-                    </span>
-            </div>
-            <button type="button" class="login-btn"> LOGIN </button>
-            </div>
-                <script>
-                    function myFunction()
+            <script>
+                function myFunction()
+                {
+                    var x = document.getElementById("myInput");
+                    var y = document.getElementById("hide1");
+                    var z = document.getElementById("hide2");
+                    
+                    if(x.type ==='password')
                     {
-                        var x = document.getElementById("myInput");
-                        var y = document.getElementById("hide1");
-                        var z = document.getElementById("hide2");
-
-                        if(x.type ==='password')
-                        {
-                            x.type = "text";
-                            y.style.display = "block";
-                            z.style.display = "none";
-                        }
-                        
-                        else
-                        {
-                            x.type = "password";
-                            y.style.display = "none";
-                            z.style.display = "block";
-                        }
+                        x.type = "text";
+                        y.style.display = "block";
+                        z.style.display = "none";
                     }
-                </script>
-                </div>
+                    
+                    else
+                    {
+                        x.type = "password";
+                        y.style.display = "none";
+                        z.style.display = "block";
+                    }
+                }
+            </script>
+            </div>
     <footer class="footer-distributed">
         
         <div class="footername">
             
-            <h3>ANITA-PEARL OYEBOLA</span></h3>
+            <h3>ANITA-PEARL OYEBOLA</h3>
             
             <p class="footerlinks">
-            <a href="Home.html">Home</a>
+            <a href="Home.html">HOME /</a>
             
-            <a href="Portfolio2.html">Portfolio</a>
+            <a href="Portfolio2.html">PORTFOLIO /</a>
             
+            <a href="Models.html">ABOUT /</a>
             
-            <a href="Games.html">Games</a>
-            
-            <a href="Models.html">Models</a>
-            
-            <a href="Login.html">Login</a>
+            <a href="Login.html">LOGIN</a>
             </p>
             
             <p class="footer-company-name">DesignTechnologyGroupD &copy; 2019</p>
@@ -128,5 +131,9 @@
         </div>
         
     </footer>
-        </body>
-    </html>
+    
+    </body>
+</html>
+
+
+
