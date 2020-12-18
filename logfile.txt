@@ -1,0 +1,188 @@
+commit f8df0df581ef487688e0c2627d7c820e454f301c
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 08:48:38 2020 +0000
+
+    Final changes have been made
+
+commit f978d0de20ef29c6d0f2f6cb55036ef567273f94
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 07:37:49 2020 +0000
+
+    I have had some issues with Github
+
+commit 94f9f2b6d1a24307532350eb17a42d27f21a179f
+Merge: 5c42716 131a255
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 07:37:34 2020 +0000
+
+    I have had some issues with Github
+
+commit 5c42716ddd3ae75cd1f77aebb608b381c0f16628
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 07:14:04 2020 +0000
+
+    These are the final changes I have made to the website. I am ready to submit it now
+
+commit c7b03c38f1c2b223f56f459bdaabb3cfbaea54e4
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 01:58:20 2020 +0000
+
+    Made other changes, It seems as though Git takes a long time to reflect the changes pushed to Git. I will have to wait.
+
+commit 131a2555f2f47d9fac9e06e0ee27fcbd0d925c89
+Author: Anitaoyebola <72265459+Anitaoyebola@users.noreply.github.com>
+Date:   Fri Dec 18 01:41:38 2020 +0000
+
+    Delete index.md
+
+commit 2ec7d2ce4bde8e5289022540cfc64faf575f4fa6
+Author: Anitaoyebola <72265459+Anitaoyebola@users.noreply.github.com>
+Date:   Fri Dec 18 01:40:30 2020 +0000
+
+    Create index.md
+
+commit da1500920056855d0b6144f552fa0267f4924817
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Fri Dec 18 01:21:56 2020 +0000
+
+    I believe I am finally done with the website, all the pages look ok now and I have mergeed all html pages with the Index.css inorder to reduce the file space. Now time to work on the report
+
+commit d0b5517a06c1a85d528eacea2f1cff2cb4fce434
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 22:57:14 2020 +0000
+
+    I hope that this will be the last commit I make
+
+commit 363f2afd11d271ff036680dd5f15b852eb72c935
+Merge: f2c42cb e60b13c
+Author: Anitaoyebola <72265459+Anitaoyebola@users.noreply.github.com>
+Date:   Thu Dec 17 22:40:35 2020 +0000
+
+    Merge pull request #2 from Anitaoyebola/Branch2
+    
+    The main index.html was not working so I had to change the name to In…
+
+commit e60b13c65051d7af7643bc86ae9100b5bbfeec81
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 22:34:57 2020 +0000
+
+    The main index.html was not working so I had to change the name to Index.html with a capital I
+
+commit f2c42cb76fc87337f390cd2f26344a1ae19437b0
+Merge: 707138f d9a7a6a
+Author: Anitaoyebola <72265459+Anitaoyebola@users.noreply.github.com>
+Date:   Thu Dec 17 22:28:46 2020 +0000
+
+    Merge pull request #1 from Anitaoyebola/Branch2
+    
+    Final Website
+
+commit d9a7a6af94188d3dfd22302ae88d4e6d3562a789
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 22:25:04 2020 +0000
+
+    Final Website
+
+commit 707138f499e4dadc211ec005fca4ce45a0f5cc8e
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 19:13:59 2020 +0000
+
+    I changed the hoem page name from Index.html to index.html and changed this on all pages, Also was able to get the Models up on localhost:8080
+
+commit 8d0efe222fffd360d178378c5be9dc1be22f8e99
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 18:44:37 2020 +0000
+
+    I have tried to change the local host and get the Games modelling page running and also get all the files needed for the page running. I hope it works this time
+
+commit 8c087b979ee38b15e160e9aff42b92f5b8eb748f
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 18:07:48 2020 +0000
+
+    I hope this workd now
+
+commit 98b5f51c5bc0f832197d23aa108a3a52c2527f77
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 17:59:21 2020 +0000
+
+    after the lesson with Peter, I am attempting to upload this again
+
+commit b61daedf6abb5d3a9a7e981d2b628ea7bafa1d43
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 17 17:45:55 2020 +0000
+
+    These are the final changes being made. I have made the Home page, Portfolio page with 3 subpages, Games page with a game added, an about page and finally a login page. I just remembered I need to make a CV page. I will make that and then puch the final changes later on today.
+
+commit 9737acff556838ee5f4979def63fa8fc10e7d32f
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Tue Dec 15 05:06:25 2020 +0000
+
+    I have made a few changes to the hompage e.g. I put borders around the menu buttons. I have also added links to the Portfolio dropdown links and added designs for the remaining pages. I will carry on working on the other pages tomorrow.
+
+commit b2e1d858570348364334ac4f94324878e675612e
+Author: anitaoyebola <anitaoyebola@Anitas-iMac.local>
+Date:   Thu Dec 10 17:43:32 2020 +0000
+
+    I just changed the home page name from Home.html to Index.html after a lesson with Pete
+
+commit ca0d561b10e695f606a297f4220061050bca9d56
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Tue Dec 8 04:16:17 2020 +0000
+
+    I had to make a quick adjustment to the Portfolio dropdown menu
+
+commit 7af199c495da39ecdd980b99b1d7aa29ee164e99
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Tue Dec 8 04:02:58 2020 +0000
+
+    I made more changes to the homepage, I think I am happy with it now.
+    git push
+    git push
+
+commit 1433abc954ec06e312ae034dee85cd23a1a7050c
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Mon Dec 7 23:59:20 2020 +0000
+
+    Here is an update of the pictures folder
+
+commit e0e8874783d0561dacb1ec170a86a58d1b2c50c3
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Mon Dec 7 23:54:35 2020 +0000
+
+    please see the changes made to the Home page and Login page, I think I am ready to start working on the other pages.
+
+commit 6f861d6a6e8e876e5bb263bfcb695dea332ba30c
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Fri Nov 27 04:31:01 2020 +0000
+
+    I adjusted the homepage menu bar and created a portfolio page and started working on the design,I will add javascript to the tomorrow
+
+commit ab4eac7436d1840435d7baf1a732a5c48e811384
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Fri Nov 27 04:30:28 2020 +0000
+
+    I adjusted the homepage menu bar and created a portfolio page and started working on the design,I will add javascript to the tomorrow
+
+commit 710d6b60af2314d8d10ca62f3da8f1005f82a8c6
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Wed Nov 25 20:52:56 2020 +0000
+
+    I have made changes to the home page and designed a login page using html, css and javascript
+
+commit 980ba49b345baad1ee7b0c18c1cc16d8c37cf4ba
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Tue Nov 24 01:43:56 2020 +0000
+
+    I have made a home page using HTML and CSS. Improvement are still to me made
+
+commit fbd71b183e4d573284ebdd5a21f2f8b07f5aff56
+Author: anitaoyebola <anitaoyebola@pc-71-103.customer.ask4.lan>
+Date:   Mon Nov 23 21:46:52 2020 +0000
+
+    This is the new website repo folder. I added html and css documents into the folder in preparation for the website
+
+commit f6a4378501963f915c26d69a1301cff4fd8b2b78
+Author: Anitaoyebola <72265459+Anitaoyebola@users.noreply.github.com>
+Date:   Mon Nov 23 21:36:41 2020 +0000
+
+    Initial commit

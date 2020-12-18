@@ -2,6 +2,8 @@ header
 {
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(pictures/IMG_9662.jpeg);
     position: relative;
+    background-size: 400%;
+    background-position: top;
 }
 
 

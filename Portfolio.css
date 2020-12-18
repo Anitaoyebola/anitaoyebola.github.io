@@ -26,13 +26,28 @@ header
     margin-left: 5px;
     font-size: 13px;
     text-transform: uppercase;
-    margin: auto;
+    margin-top: 200px;
+    padding: 70px;
+
 }
 
 span
 {
     display: block;
     color: darkorange;
+}
+
+.btn-linkone
+{
+    margin-top: 200px;
+}
+.btn-linktwo
+{
+    margin-top: 200px;
+}
+.btn-linkthree
+{
+   margin-top: 200px;
 }
 
 
