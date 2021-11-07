@@ -1,0 +1,84 @@
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,3)),url(pictures/B645A8D2-3741-4B0C-8C31-DBEE7DF48125_1_105_c.jpeg);
+    position: relative;
+    padding-bottom: 200px;
+}
+.main-page
+{
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+p1
+{
+    color:white;
+    height:auto;
+    display: block;
+    text-align: center;
+    width: 600px ;
+    max-width: 100% ;
+    margin: 100px auto auto auto ;
+    font-size: 17px;
+    border: 0.1px solid white;
+    padding: 100px;
+}
+.page-gallery
+{
+    
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+
+.mySlides1, .mySlides2, .myslides3
+{
+    display: none
+    
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: lightcoral;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    font-size: 18px;
+    -webkit-transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover
+{
+    background-color: black;
+    color: white;
+}

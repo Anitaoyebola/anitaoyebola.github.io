@@ -1,0 +1,494 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                    
+                    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+                        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+                            <link rel="stylesheet" href="Games.css">
+                                
+                                <title> Anita Oyebola</title>
+                                <link href="Home.css" rel="stylesheet" type="text/css">
+                                    <link href="Index.css" rel="stylesheet" type="text/css">
+                                        </head>
+    
+    <body>
+        <header>
+            
+            <div id="mySidenav" class="sidenavigation">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="Index.html">Home</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="Games.html">Games</a>
+                <a href="About.html">About</a>
+                <a href="Login.html">Login</a>
+            </div>
+            
+            <span style="font-size:20px;cursor:pointer; color: white; padding: 20px 0 0 10px;" onclick="openNav()">&#9776;MENU</span>
+            
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "200px";
+                }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
+            
+            <h1>Guess the movie</h1>
+            
+            <button href="next-movie0" id="myBtn">START</button>
+            <!-- The Modal -->
+            <div id="myPopupbox" class="popupbox">
+                
+                <!-- Modal content -->
+                <div class="popupbox-content">
+                    <span class="close">&times;</span>
+                    <p>The aim of the game is to guess the Movie titles.
+                    1.Fill in the boxes to move forward. 2.You can get tips from the internet if you wish. 3. Refresh the page to go back to the main game page. 4. Some questions require "The". 5.The boxes will be green of when correct letters are inputed. Good luck. Click the start button below to begin.<a href="#next-movie1">START</a></p>
+                </div>
+                
+                <script>
+                    // Get the modal
+                    var popupbox = document.getElementById("myPopupbox");
+                    
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+                    
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    
+                    // When the user clicks the button, open the modal
+                    btn.onclick = function() {
+                        popupbox.style.display = "block";
+                    }
+                
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    popupbox.style.display = "none";
+                }
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == popupbox) {
+                        popupbox.style.display = "none";
+                    }
+                }
+                </script>
+                
+                <div id="next-movie1">
+                    <p>👦🏻👓⚡️</p>
+                    <div class="container">
+                        <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie1">
+                            <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie1">
+                                <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie1">
+                                    <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie1">
+                                        <input type="text" required maxlength="1" pattern="^[Yy]{1}$" class="letter movie1">
+                                            <div class="space"></div>
+                                            <input type="text" required maxlength="1" pattern="^[Pp]{1}$" class="letter movie1">
+                                                <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie1">
+                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie1">
+                                                        <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie1">
+                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie1">
+                                                                <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie1">
+                                                                    <a href="#next-movie2" id="next">next</a>
+                                                                    </div>
+                    
+                    <!-- movie 2 -->
+                    <div id="next-movie2">
+                        <p>⭐💣⚔️</p>
+                        <div class="container">
+                            <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie2">
+                                <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie2">
+                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie2">
+                                        <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie2">
+                                            <div class="space_movie2 space "></div>
+                                            <input type="text" required maxlength="1" pattern="^[Ww]{1}$" class="letter movie2">
+                                                <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie2">
+                                                    <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie2">
+                                                        <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie2">
+                                                            <a href="#next-movie3" id="next">next</a>
+                                                            </div>
+                        <!--Movie 3-->
+                        <div id="next-movie3">
+                            <p>🌃🏛️👨🔦🗿🙉</p>
+                            <div class="container">
+                                <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie3">
+                                    <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie3">
+                                        <input type="text" required maxlength="1" pattern="^[Gg]{1}$" class="letter movie3">
+                                            <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie3">
+                                                <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie3">
+                                                    <div class="space_movie2 space "></div>
+                                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie3">
+                                                        <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie3">
+                                                            <div class="space_movie2 space "></div>
+                                                            <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie3">
+                                                                <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie3">
+                                                                    <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie3">
+                                                                        <div class="space_movie2 space "></div>
+                                                                        <input type="text" required maxlength="1" pattern="^[Mm]{1}$" class="letter movie3">
+                                                                            <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie3">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie3">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie3">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie3">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Mm]{1}$" class="letter movie3">
+                                                                                                
+                                                                                                <a href="#next-movie4" id="next">next</a>
+                                                                                                </div>
+                            <!-- movie 4 -->
+                            <div id="next-movie4">
+                                <p>👴➡️👨➡️👦➡️👶</p>
+                                <div class="container">
+                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie4">
+                                        <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie4">
+                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie4">
+                                                <div class="space_movie2 space "></div>
+                                                <input type="text" required maxlength="1" pattern="^[Cc]{1}$" class="letter movie4">
+                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie4">
+                                                        <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie4">
+                                                            <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie4">
+                                                                <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie4">
+                                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie4">
+                                                                        <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie4">
+                                                                            <div class="space_movie2 space "></div>
+                                                                            <input type="text" required maxlength="1" pattern="^[Cc]{1}$" class="letter movie4">
+                                                                                <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie4">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie4">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie4">
+                                                                                            <div class="space_movie2 space "></div>
+                                                                                            <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie4">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Ff]{1}$" class="letter movie4">
+                                                                                                    <div class="space_movie2 space "></div>
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Bb]{1}$" class="letter movie4">
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie4">
+                                                                                                            <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie4">
+                                                                                                                <input type="text" required maxlength="1" pattern="^[Jj]{1}$" class="letter movie4">
+                                                                                                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie4">
+                                                                                                                        <input type="text" required maxlength="1" pattern="^[Mm]{1}$" class="letter movie4">
+                                                                                                                            <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie4">
+                                                                                                                                <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie4">
+                                                                                                                                    <div class="space_movie2 space "></div>
+                                                                                                                                    <input type="text" required maxlength="1" pattern="^[Bb]{1}$" class="letter movie4">
+                                                                                                                                        <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie4">
+                                                                                                                                            <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie4">
+                                                                                                                                                <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie4">
+                                                                                                                                                    <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie4">
+                                                                                                                                                        <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie4">
+                                                                                                                                                            
+                                                                                                                                                            <a href="#next-movie5" id="next">next</a>
+                                                                                                                                                            </div>
+                                <!--movie 5 -->
+                                <div id="next-movie5">
+                                    <p>👸🏿🐸💋</p>
+                                    <div class="container">
+                                        <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie5">
+                                            <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie5">
+                                                <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie5">
+                                                    <div class="space_movie2 space "></div>
+                                                    <input type="text" required maxlength="1" pattern="^[Pp]{1}$" class="letter movie5">
+                                                        <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie5">
+                                                            <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie5">
+                                                                <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie5">
+                                                                    <input type="text" required maxlength="1" pattern="^[Cc]{1}$" class="letter movie5">
+                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie5">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie5">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie5">
+                                                                                    <div class="space_movie2 space "></div>
+                                                                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie5">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie5">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie5">
+                                                                                                <div class="space_movie2 space "></div>
+                                                                                                <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie5">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie5">
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie5">
+                                                                                                            <div class="space_movie2 space "></div>
+                                                                                                            <input type="text" required maxlength="1" pattern="^[Ff]{1}$" class="letter movie5">
+                                                                                                                <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie5">
+                                                                                                                    <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie5">
+                                                                                                                        <input type="text" required maxlength="1" pattern="^[Gg]{1}$" class="letter movie5">
+                                                                                                                            
+                                                                                                                            <a href="#next-movie6" id="next">next</a>
+                                                                                                                            </div>
+                                    <!--movie 6 -->
+                                    <div id="next-movie6">
+                                        <p>🐀🍳🍽️🗼</p>
+                                        <div class="container">
+                                            <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie6">
+                                                <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie6">
+                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie6">
+                                                        <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie6">
+                                                            <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie6">
+                                                                <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie6">
+                                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie6">
+                                                                        <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie6">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie6">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie6">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie6">
+                                                                                        
+                                                                                        <a href="#next-movie7" id="next">next</a>
+                                                                                        </div>
+                                        <!-- movie 7 -->
+                                        <div id="next-movie7">
+                                            <p>🐼🥋👊</p>
+                                            <div class="container">
+                                                <input type="text" required maxlength="1" pattern="^[Kk]{1}$" class="letter movie7">
+                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie7">
+                                                        <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie7">
+                                                            <input type="text" required maxlength="1" pattern="^[Gg]{1}$" class="letter movie7">
+                                                                <div class="space_movie2 space "></div>
+                                                                <input type="text" required maxlength="1" pattern="^[Ff]{1}$" class="letter movie7">
+                                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie7">
+                                                                        <div class="space_movie2 space "></div>
+                                                                        <input type="text" required maxlength="1" pattern="^[Pp]{1}$" class="letter movie7">
+                                                                            <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie7">
+                                                                                <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie7">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie7">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie7">
+                                                                                            
+                                                                                            <a href="#next-movie8" id="next">next</a>
+                                                                                            </div>
+                                            <!-- movie 8 -->
+                                            <div id="next-movie8">
+                                                <p>😈👗👠</p>
+                                                <div class="container">
+                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie8">
+                                                        <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie8">
+                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie8">
+                                                                <div class="space_movie2 space "></div>
+                                                                <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie8">
+                                                                    <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie8">
+                                                                        <input type="text" required maxlength="1" pattern="^[Vv]{1}$" class="letter movie8">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie8">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie8">
+                                                                                    <div class="space_movie2 space "></div>
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ww]{1}$" class="letter movie8">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie8">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie8">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie8">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie8">
+                                                                                                        <div class="space_movie2 space "></div>
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Pp]{1}$" class="letter movie8">
+                                                                                                            <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie8">
+                                                                                                                <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie8">
+                                                                                                                    <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie8">
+                                                                                                                        <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie8">
+                                                                                                                            
+                                                                                                                            <a href="#next-movie9" id="next">next</a>
+                                                                                                                            </div>
+                                                <!--movie 9-->
+                                                <div id="next-movie9">
+                                                    <p>2️⃣7️⃣👗</p>
+                                                    <div class="container">
+                                                        <input type="text" required maxlength="1" pattern="^[2]{1}$" class="letter movie9">
+                                                            <input type="text" required maxlength="1" pattern="^[7]{1}$" class="letter movie9">
+                                                                <div class="space_movie2 space "></div>
+                                                                <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie9">
+                                                                    <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie9">
+                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie9">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie9">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie9">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie9">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie9">
+                                                                                            
+                                                                                            <a href="#next-movie10" id="next">next</a>
+                                                                                            </div>
+                                                    <!--movie 10-->
+                                                    <div id="next-movie10">
+                                                        <p>👦✂️👐</p>
+                                                        <div class="container">
+                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie10">
+                                                                <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie10">
+                                                                    <input type="text" required maxlength="1" pattern="^[Ww]{1}$" class="letter movie10">
+                                                                        <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie10">
+                                                                            <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie10">
+                                                                                <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie10">
+                                                                                    <div class="space_movie2 space "></div>
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie10">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Cc]{1}$" class="letter movie10">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie10">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie10">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie10">
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie10">
+                                                                                                            <input type="text" required maxlength="1" pattern="^[Rr]{1}$" class="letter movie10">
+                                                                                                                <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie10">
+                                                                                                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie10">
+                                                                                                                        <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie10">
+                                                                                                                            <input type="text" required maxlength="1" pattern="^[Dd]{1}$" class="letter movie10">
+                                                                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie10">
+                                                                                                                                    
+                                                                                                                                    <a href="#next-movie11" id="next">next</a>
+                                                                                                                                    </div>
+                                                        <!--movie 11-->
+                                                        <div id="next-movie11">
+                                                            <p>🐈👢</p>
+                                                            <div class="container">
+                                                                <input type="text" required maxlength="1" pattern="^[Pp]{1}$" class="letter movie11">
+                                                                    <input type="text" required maxlength="1" pattern="^[Uu]{1}$" class="letter movie11">
+                                                                        <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie11">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie11">
+                                                                                <div class="space_movie2 space "></div>
+                                                                                <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie11">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie11">
+                                                                                        <div class="space_movie2 space "></div>
+                                                                                        <input type="text" required maxlength="1" pattern="^[Bb]{1}$" class="letter movie11">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie11">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie11">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie11">
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie11">
+                                                                                                            <div class="space_movie2 space "></div>
+                                                                                                            
+                                                                                                            <a href="#next-movie12" id="next">next</a>
+                                                                                                            </div>
+                                                            <!-- movie 12 -->
+                                                            <div id="next-movie12">
+                                                                <p>🤫🐐</p>
+                                                                <div class="container">
+                                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie12">
+                                                                        <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie12">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie12">
+                                                                                <div class="space_movie2 space "></div>
+                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie12">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie12">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie12">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie12">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Nn]{1}$" class="letter movie12">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Cc]{1}$" class="letter movie12">
+                                                                                                        <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie12">
+                                                                                                            <div class="space_movie2 space "></div>
+                                                                                                            <input type="text" required maxlength="1" pattern="^[Oo]{1}$" class="letter movie12">
+                                                                                                                <input type="text" required maxlength="1" pattern="^[Ff]{1}$" class="letter movie12">
+                                                                                                                    <div class="space_movie2 space "></div>
+                                                                                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie12">
+                                                                                                                        <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie12">
+                                                                                                                            <input type="text" required maxlength="1" pattern="^[Ee]{1}$" class="letter movie12">
+                                                                                                                                <div class="space_movie2 space "></div>
+                                                                                                                                <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie12">
+                                                                                                                                    <input type="text" required maxlength="1" pattern="^[Aa]{1}$" class="letter movie12">
+                                                                                                                                        <input type="text" required maxlength="1" pattern="^[Mm]{1}$" class="letter movie12">
+                                                                                                                                            <input type="text" required maxlength="1" pattern="^[Bb]{1}$" class="letter movie12">
+                                                                                                                                                <input type="text" required maxlength="1" pattern="^[Ss]{1}$" class="letter movie12">
+                                                                                                                                                    <div class="space_movie2 space "></div>
+                                                                                                                                                    
+                                                                                                                                                    <a href="#next-movie13" id="next">next</a>
+                                                                                                                                                    </div>
+                                                                <!-- movie 13 -->
+                                                                <div id="next-movie13">
+                                                                    <p>🌗🧛‍♂️💑🐺</p>
+                                                                    <div class="container">
+                                                                        <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie13">
+                                                                            <input type="text" required maxlength="1" pattern="^[Ww]{1}$" class="letter movie13">
+                                                                                <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie13">
+                                                                                    <input type="text" required maxlength="1" pattern="^[Ll]{1}$" class="letter movie13">
+                                                                                        <input type="text" required maxlength="1" pattern="^[Ii]{1}$" class="letter movie13">
+                                                                                            <input type="text" required maxlength="1" pattern="^[Gg]{1}$" class="letter movie13">
+                                                                                                <input type="text" required maxlength="1" pattern="^[Hh]{1}$" class="letter movie13">
+                                                                                                    <input type="text" required maxlength="1" pattern="^[Tt]{1}$" class="letter movie13">
+                                                                                                        
+                                                                                                        <a href="#congrats" id="next">next</a>
+                                                                                                        </div>
+                                                                    <!--End of Game-->
+                                                                    <div id="congrats">
+                                                                        <h1>Congratulations!!</h1>
+                                                                        <p>You did amazing!</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    /* answers*/
+                    /*
+                     1. Harry Potter
+                     2. Star Wars
+                     3. Night at the museum
+                     4. The Curious Case of Benjamin Button
+                     5. The princess and the frog
+                     6. Ratatouille
+                     7. Kung Fu Panda
+                     8. The Devil Wears Prada
+                     9. 27 Dresses
+                     10. Edward Scissor Hands
+                     11. Puss in Boots
+                     12. The silence of the Lambs
+                     13. Twilight
+                     */
+                </script>
+                </header>
+        
+        <footer class="footer-distributed">
+            
+            <div class="footername">
+                
+                <h3>ANITA-PEARL OYEBOLA</h3>
+                
+                <p class="footerlinks">
+                <a href="Index.html">HOME /</a>
+                
+                <a href="Portfolio.html">PORTFOLIO /</a>
+                
+                <a href="Gamesmodels.html">GAMES /</a>
+                
+                <a href="About.html">ABOUT /</a>
+                
+                <a href="Login.html">LOGIN</a>
+                </p>
+                
+                
+                <p class="footer-company-name">DesignTechnologyGroupD &copy; 2019</p>
+            </div>
+            
+            <div class="footer-center">
+                
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span1>Bournemouth University</span1><span1>Talbot Campus</span1><span1>Poole</span1> BH12 5BB</p>
+                </div>
+                
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>01202524111</p>
+                </div>
+                
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:bournemouth@mail.ac.uk">B-university@mail.ac.uk</a></p>
+                </div>
+                
+            </div>
+            
+            <div class="footer-right">
+                
+                <p class="footer-company-about">
+                <span>About This Website</span>
+                This is not a real website, just a website made for my DT assessment. You can click the links below, they work! :)
+                </p>
+                
+                <div class="footer-icons">
+                    
+                    <a href="https://www.facebook.com/JoinBournemouthUni/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/bournemouthuni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/bournemouthuni/?hl=en"><i class="fa fa-instagram"></i></a>
+                    <a href="https://github.com/Anitaoyebola/anitaoyebola.github.io"><i class="fa fa-github"></i></a>
+                    
+                </div>
+                
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>
+
+
+

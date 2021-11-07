@@ -1,0 +1,38 @@
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(pictures/IMG_9232.jpg);
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.main-pagelinks
+{
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+.main-pagelinks a:hover
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btnlink
+{
+    border: 10px solid white;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+span
+{
+    display: block;
+    color: darkorange;
+}
+
+
