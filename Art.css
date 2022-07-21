@@ -1,6 +1,6 @@
 header
 {
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,3)),url(pictures/B645A8D2-3741-4B0C-8C31-DBEE7DF48125_1_105_c.jpeg);
+    background-color: off white;
     position: relative;
     padding-bottom: 200px;
 }
@@ -13,6 +13,73 @@ header
     padding-bottom: 100px;
 }
 
+/* h5 automatic slidshow design 1*/
+h5
+{
+    font-size: 30px;
+    max-width: 100%;
+    margin: auto;
+    color: black;
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    writing-mode: vertical-rl;
+}
+
+.slider-frame
+{
+    overflow: hidden;
+    height: 1200px;
+    width: 1200px;
+    margin-left: 250px;
+    margin-top: 20px;
+  
+}
+
+/*-- Slider animation*/
+@-webkit-keyframes slide_animation
+{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 3600px;}
+    70% {left: 3600px;}
+    80% {left: 2400px;}
+    90% {left: 2400px;}
+    100% {left: 0px;}
+}
+ 
+.slide-images
+{
+    width: 4800px;
+    height: 800px;
+    margin: 0 0 0 -3600px;
+    padding-bottom: 250px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container
+{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+/* end of slideshow animation and design 1*/
+
+
+.pageimage1 img
+{
+    position: center;
+}
 
 p1
 {
@@ -47,7 +114,7 @@ img
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 700px;
+    max-width: 300px;
     position: relative;
     margin: auto;
     margin-bottom: auto;
